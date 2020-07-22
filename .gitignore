@@ -1,0 +1,30 @@
+# 以'#' 开始的行，被视为注释.
+# 忽略掉所有文件名是 foo.txt 的文件.
+#foo.txt
+# 忽略所有生成的 html 文件,
+#*.html
+# foo.html是手工维护的，所以例外.
+#!foo.html
+#！**/src/main/**
+#!.mvn/wrapper/maven-wrapper.jar
+#  忽略所有.o 和 .a文件.
+#*.[oa]
+/target/
+**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### 忽略掉所有后缀名为.idea,.iws等的文件###
+.idea
+*.iws
+*.iml
+*.ipr
+*.imi
+
