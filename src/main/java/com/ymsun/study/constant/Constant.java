@@ -8,6 +8,8 @@ public class Constant {
 
     private static final String AA = "AA";
 
+    public static void main(String[] args) {
 
+    }
 
 }
