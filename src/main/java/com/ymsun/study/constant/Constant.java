@@ -9,7 +9,7 @@ public class Constant {
     private static final String AA = "AA";
 
     public static void main(String[] args) {
-
+        assert 1 < 0 : "一些东西是错误的";
     }
 
 }
