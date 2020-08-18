@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * @author ymsun
  * @date 2020/8/17 17:34
- * 动态代理的实现
+ * 动态代理的实现,需要实现接口
  */
 public class ProxyModle {
 
@@ -31,6 +31,9 @@ class MessageReal implements Imessage{
     }
 }
 
+/**
+ * 实现动态代理
+ */
 class MessageProxy implements InvocationHandler{
 
     private Object target;  //保存真实业务主题对象
